@@ -3,8 +3,8 @@ import React from "react";
 const Page4 = () => {
   return (
     <div id="projects">
-      <h1 className="text-4xl font-[anzo] text-center mt-12">Proven Results</h1>
-      <div className="md:mt-8 md:p-8 w-full md:flex md:gap-5 lg:justify-around">
+      <h1 className="text-4xl font-[anzo] text-center md:text-8xl mt-12">Proven Results</h1>
+      <div className="md:mt-8 md:p-20 w-full md:flex md:gap-5 lg:justify-around">
         <div className="lg:w-1/3 flex justify-center items-center gap-2 flex-col bg-gray-100 p-4 m-1 rounded-lg shadow-lg">
           <h2 className="text-2xl font-semibold mt-4 font-[anzo]">
             Accelerates
@@ -28,7 +28,7 @@ const Page4 = () => {
             </a> */}
           </div>
         </div>
-        <div className="lg:w-1/3 flex justify-center items-center gap-2 flex-col bg-gray-100 p-4 m-1 mt-5 rounded-lg shadow-lg">
+        <div className="lg:w-1/3 flex justify-center items-center gap-2 flex-col bg-gray-100 p-4 m-1 mt-5 md:mt-0 rounded-lg shadow-lg">
           <h2 className="text-2xl font-semibold mt-4 font-[anzo]">
             Task Assign
           </h2>
@@ -54,7 +54,7 @@ const Page4 = () => {
             </a> */}
           </div>
         </div>
-        <div className="lg:w-1/3 flex justify-center items-center gap-2 flex-col bg-gray-100 p-4 m-1 mt-5 rounded-lg shadow-lg">
+        <div className="lg:w-1/3 flex justify-center items-center gap-2 flex-col bg-gray-100 p-4 m-1 mt-5 md:mt-0 rounded-lg shadow-lg">
           <h2 className="text-2xl font-semibold mt-4 font-[anzo]">
             Item Paste App
           </h2>
