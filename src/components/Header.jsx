@@ -10,7 +10,7 @@ const Header = () => {
         <a href="#contact" className='hover:text-black'>Contact</a>
       </div>
       <div className='fixed bottom-5 md:block md:top-10 md:left-240 flex w-full justify-end px-6 '>
-        <a href="https://wa.me/918851470477" target="_blank" rel="noopener noreferrer">
+        <a href="https://wa.me/919718179994" target="_blank" rel="noopener noreferrer">
         <i className="ri-whatsapp-line hover:text-black ml-5 text-[14vw] text-green-500 md:text-[3vw]"></i>
         </a>
       </div>

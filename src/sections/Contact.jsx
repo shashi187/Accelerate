@@ -5,8 +5,8 @@ const Contact = () => {
   return (
     <div className=''>
       <div id=''>
-        <p className='text-[8vw] font-serif text-center mt-8 p-2'>Get In Touch</p>
-        <strong className='text-gray-500 p-2'>Growth is not a luxury. It’s the baseline.</strong>
+        <p className='text-[8vw] leading-[6.5vw] font-serif text-center mt-8 p-2'>Get In Touch<br/><span className='text-[6vw] leading-[1vw]'> Founder</span></p>
+        <strong className='text-gray-500 pb-2 -mt-2 px-2 '>Growth is not a luxury. It’s the baseline.</strong>
         <p className='p-2'>I’m here to engineer scalable systems that accelerate your digital presence and push your bottom line north — fast.</p>
         <a href="https://shashiraj.vercel.app" target='blank' className='flex flex-col gap-4 justify-center self-center'><img src="/portfolio.png" alt="portfolio" />
         <button className='text-center py-1 px-2 bg-gray-200 rounded-lg place-self-center'>Visit Now</button>

@@ -41,7 +41,7 @@ const About = () => {
           About Us
         </h1>
         <div onMouseMove={(e)=>{mouseMoving(e)}} className='md:h-screen p-5 bg-white overflow-hidden'>
-            <div ref={tiltref} id='tilt' className='bg-white place-self-center'>
+            <div ref={tiltref} id='tilt' className='bg-white place-self-center pl-10'>
                 <img className='relative md:h-[50vh] md:w-[30vw] md:top-28 lg:top-36' src="/person.webp" alt="" />
             </div>
         </div>
