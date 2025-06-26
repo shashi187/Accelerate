@@ -11,9 +11,24 @@ import Projects from './sections/Projects'
 import Testimonials from './sections/Testimonials'
 import Contact from './sections/Contact'
 import Footer from './components/Footer'
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
+
+function useAnalytics() {
+  const location = useLocation();
+
+  useEffect(() => {
+    if (window.gtag) {
+      window.gtag('config', 'G-7LRB4L4B0X', {
+        page_path: location.pathname,
+      });
+    }
+  }, [location]);
+}
+
 
 function App() {
-
+  useAnalytics();
   return (
     <>
       <Header />
