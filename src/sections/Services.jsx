@@ -5,7 +5,7 @@ const Services = () => {
     <div>
       <div className='w-full bg-gray-200 py-5 pt-2 pb-20 flex flex-col p-1' id='service'>
         <h1 className='text-center text-[6.2vw] md:text-[6vw] font-bold text-black'>Exactly What You Need to Grow</h1>
-        <div className='bg-gray-200 p-18'>
+        <div className='bg-gray-200 md:p-18 p-2'>
           <div className='bg-white shadow-gray-400 shadow-2xs bg-fit w-full p-5 rounded-lg mt-5 '>
             <img src="/web.gif" alt="coding" height={80} width={100} className='place-self-center md:h-60 w-60'/>
             <h1 className='text-center text-[6.2vw] md:text-[3vw] font-bold text-black'>High-Impact Websites</h1>
