@@ -8,7 +8,7 @@ const Services = () => {
         <div className='bg-gray-200 md:p-18 p-2 md:flex gap-3 md:-mt-3'>
           <div className='bg-white shadow-gray-400 shadow-2xs bg-fit w-full p-5 rounded-lg mt-5 md:mt-0 '>
             <img src="/web.gif" alt="coding" height={80} width={100} className='place-self-center md:h-50 w-50'/>
-            <h1 className='text-center text-[6.2vw] md:text-[2vw] font-bold text-black'>High-ImpacWebsite</h1>
+            <h1 className='text-center text-[6.2vw] md:text-[2vw] font-bold text-black'>Impactful Websites</h1>
             <h1 className='text-start text-[5vw] md:text-[1.7vw] font-bold text-gray-700'>Built for Sales, Not Just Visits</h1>
             <h1 className='text-start text-[4.5vw] md:text-[1.5vw] font-bold text-gray-700'>We engineer websites that convert visitors into buyers. Mobile-perfect, lighting-fast, and obsessed with your ROI.</h1>
           </div>
