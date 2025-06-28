@@ -4,7 +4,7 @@ const Page4 = () => {
   return (
     <div id="projects">
       <h1 className="text-4xl font-[anzo] text-center md:text-8xl mt-12">Proven Results</h1>
-      <div className="md:mt-8 md:p-20 w-full md:flex md:gap-5 lg:justify-around">
+      <div className="md:mt-8 md:px-10 md:pb-20 w-full md:flex md:gap-5 lg:justify-around">
         <div className="lg:w-1/3 flex justify-center items-center gap-2 flex-col bg-gray-100 p-4 m-1 rounded-lg shadow-lg">
           <h2 className="text-2xl font-semibold mt-4 font-[anzo]">
             Accelerates

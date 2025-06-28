@@ -2,9 +2,9 @@ import React from 'react'
 
 const Testimonials = () => {
   return (
-    <div className='overflow-x-hidden pt-4 bg-gray-100'>
-      <h2 className="text-3xl font-bold text-center mb-10 md:mb-0">What Our Clients Say</h2>
-      <div className="flex flex-row w-full overflow-x-auto md:p-12" id="testimonial">
+    <div className='overflow-x-hidden pt-4 bg-gray-100 md:m-2 md:rounded-4xl'>
+      <h2 className="text-3xl md:text-[3vw] font-bold text-center mb-10 md:mb-0">What Our Clients Say</h2>
+      <div className="flex flex-row w-full overflow-x-auto md:p-12 p-4" id="testimonial">
         <div className='flex flex-col flex-none p-2 m-1 bg-white shadow-lg rounded-lg w-full md:w-1/4'>
             <strong>Priya Sharma</strong>
             <p>UrbanCraft Home Decor</p>

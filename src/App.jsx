@@ -13,6 +13,7 @@ import Contact from './sections/Contact'
 import Footer from './components/Footer'
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
+import MouseFollower from './components/MouseFollower'
 
 function useAnalytics() {
   const location = useLocation();
@@ -30,7 +31,7 @@ function useAnalytics() {
 function App() {
   useAnalytics();
   return (
-    <>
+    <MouseFollower>
       <Header />
       <Hero />
       <Impact />
@@ -41,7 +42,7 @@ function App() {
       <Testimonials />
       <Contact />
       <Footer />
-    </>
+    </MouseFollower>
   )
 }
 

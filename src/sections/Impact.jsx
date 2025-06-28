@@ -24,16 +24,16 @@ const Page2 = () => {
     <div className='bg-white text-black overflow-hidden pb-6 pt-6 md:pt-6'>
       <h3 className='font-[anzo] text-xl pb-12 text-center text-gray-400'>© Accelerates 2024</h3>
       <div className='rotateText'>
-        <h1 className='font-[anzo] text-[18vw] leading-[18vw] text-center font-extrabold'>WEBSITES</h1>
+        <h1 className='font-[anzo] text-[10vw] leading-[10vw] text-center font-extrabold'>WEBSITES</h1>
       </div>
       <div className='rotateText'>
-        <h1 className='font-[anzo] text-[18vw] leading-[18vw] text-center font-bold'>THAT</h1>
+        <h1 className='font-[anzo] text-[10vw] leading-[10vw] text-center font-bold'>THAT</h1>
       </div>
       <div className='rotateText'>
-        <h1 className='font-[anzo] text-[18vw] leading-[18vw] text-center font-bold'>CREATES</h1>
+        <h1 className='font-[anzo] text-[10vw] leading-[10vw] text-center font-bold'>CREATES</h1>
       </div>
       <div className='rotateText'>
-        <h1 className='font-[anzo] text-[18vw] leading-[18vw] text-center font-bold'>IMPACT!</h1>
+        <h1 className='font-[anzo] text-[10vw] leading-[10vw] text-center font-bold'>IMPACT!</h1>
       </div>
       <div className='h-1 w-1/3 mx-auto bg-black mt-6 md:mb-20' ></div>
     </div>

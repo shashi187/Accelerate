@@ -9,10 +9,9 @@ const Header = () => {
         <a href="#projects" className='hover:text-black'>Projects</a>
         <a href="#contact" className='hover:text-black'>Contact</a>
       </div>
-      <div className='fixed bottom-5 md:block md:top-10 sm:left-150 md:left-200 lg:left-220 xl:left-250 flex w-full justify-end px-6 '>
-        <a href="https://wa.me/919718179994" target="_blank" rel="noopener noreferrer">
-        <i className="ri-whatsapp-line hover:text-black ml-5 text-[14vw] text-green-500 sm:text-[4vw]"></i>
-        </a>
+      <div className='fixed bottom-5 md:block md:top-11 md:left-238 flex w-full justify-end px-6 '>
+        <a href="https://www.instagram.com/rishiraj_.___/" className='hidden md:inline' target="_blank" rel="noopener noreferrer"><i className="ri-instagram-line text-pink-500 hover:text-black text-[10vw] md:text-[3vw]"></i></a>
+        <a href="https://wa.me/919718179994?text=Hello%20Raj,%20I%20want%20to%20work%20with%20you." target="_blank" rel="noopener noreferrer"><i className="ri-whatsapp-line text-green-500 hover:text-black ml-5 text-[10vw] md:text-[3vw]"></i></a>
       </div>
     </div>
   )

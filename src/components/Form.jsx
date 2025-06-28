@@ -25,9 +25,9 @@ const Form = () => {
 
   return (
     <div className="p-2 md:p-20 bg-gray-300">
-      <div className="bg-[url(/contact.jpg)] rounded-4xl p-10 bg-cover bg-center text-white">
-        <div className="max-w-2xl mx-auto px-4 py-8 ">
-          <p className="text-[8vw] text-center font-bold -mt-16 text-pink-500">Contact Us</p>
+      <div className="bg-[url(/contacts.jpg)] rounded-4xl p-10 bg-cover bg-right text-white">
+        <div className="max-w-2xl mx-auto px-4 ">
+          <p className="text-[8vw] text-center font-bold -mt-12 text-pink-500">Contact Us</p>
         <form onSubmit={handleSubmit} className="space-y-4">
           <input
             type="text"
